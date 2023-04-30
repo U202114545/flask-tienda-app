@@ -3,7 +3,7 @@ from flask_mysqldb import MySQL
 
 app = Flask(__name__)
 
-app.config['MYSQL_HOST'] = '3.88.249.223'
+app.config['MYSQL_HOST'] = '3.84.12.93'
 # La IP de la base de datos
 
 app.config['MYSQL_USER'] = 'support'
