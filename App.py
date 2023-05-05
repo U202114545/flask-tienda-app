@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 from flask_mysqldb import MySQL
 
 app = Flask(__name__)
-app.config['MYSQL_HOST'] = '54.89.219.9'
+app.config['MYSQL_HOST'] = '44.203.193.51'
 #Puerto IPv4 público de la capa de datos
 
 app.config['MYSQL_USER'] = 'support'
